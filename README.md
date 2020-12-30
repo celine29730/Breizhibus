@@ -31,6 +31,21 @@ La connection à la base de données s'est faite gràce à **mysql connector**.
 La base de données est constituée de 3 tables principales: "arret", "bus", "lignes" et d'une table intermédiare "arret_ligne"
 
 
+![images 3](https://github.com/celine29730/Breizhibus/blob/main/sh%C3%A9ma_bdd_breizhibus.png)
+
+
+# 3. **Difficultés**
+* La première difficulté a résidé dans la structure du code. le fait d'utiliser différentes fonctions m'a paru la slolution la plus simple à mon niveau.
+
+* La difficulté majeure pour l'interface graphique a eté de pouvoir entrer des paramètres dans ma fonction pour la commande de mon bouton **"liste des arrêts"**. j'ai découvert la fonction temporarire **lambda** qui m'a permis de résoudre ce problème.
+Le site suivant m'a beaucoup aidé [fonction lambda](https://www.delftstack.com/fr/howto/python-tkinter/how-to-pass-arguments-to-tkinter-button-command/)!
+
+
+
+
+
+
+
 
 
 
