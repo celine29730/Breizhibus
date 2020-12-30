@@ -9,7 +9,7 @@ Chaque bouton appelle une fonction qui a été crée indépendamment.
 
 * Le premier bouton permet d'afficher toutes les lignes présentes dans la base de données.
 
-* J'ai crée ensuite une liste déroulante (**combobox**) afin de pouvoir choisir une ligne de bus. En fonction de ce choix j'ai réalisé un bouton et une **Entry** qui permet d'afficher les arrêts associées en fonction de la ligne choisie. Le bouton crée fait appel en commande à la fonction aff_arret et j'ai utilisé la fonction temporaire **lambda** pour pouvoir mettre en paramètre de ma fonction le choix de ma liste déroulante. 
+* J'ai crée ensuite une liste déroulante (**combobox**) afin de pouvoir choisir une ligne de bus. En fonction de ce choix j'ai réalisé un bouton et une **Entry** qui permet d'afficher les arrêts associés en fonction de la ligne choisie. Le bouton crée fait appel en commande à la fonction aff_arret et j'ai utilisé la fonction temporaire **lambda** pour pouvoir mettre en paramètre de ma fonction le choix de ma liste déroulante. 
 
 * J'ai crée ensuite tout un bloc consacré à l'insertion d'un bus directement dans la base de données.
 pour celà, j'ai procédé à la création de toutes les **Entry** nécessaires et qui constituent tous les champs de ma table **Bus**.
